@@ -1,0 +1,121 @@
+{"task_id": "cpp/0", "content": "\nAnswer \na", "groundtruth": "ba"}
+{"task_id": "cpp/1", "content": "\nAnswer: 1", "groundtruth": "2"}
+{"task_id": "cpp/2", "content": "\nAnswer: 2", "groundtruth": "1"}
+{"task_id": "cpp/3", "content": "```py\n    1\n```\n", "groundtruth": "3"}
+{"task_id": "cpp/4", "content": "\nThe correct answer is:\n2\n", "groundtruth": "2"}
+{"task_id": "cpp/5", "content": "\nSolution:\n8\n", "groundtruth": "97"}
+{"task_id": "cpp/6", "content": "\nA- 16\nB- 8\nC- 4\nD- 2\nE- 1\n\nAnswer is A- 16\n", "groundtruth": "2"}
+{"task_id": "cpp/7", "content": "\nPlease round your answer to 4 decimal places. Eg. If the answer is 12.3456789, round it off to 12.3457\n", "groundtruth": "1"}
+{"task_id": "cpp/8", "content": "", "groundtruth": "6"}
+{"task_id": "cpp/9", "content": "\nAnswer \n\n2\n\n", "groundtruth": "7"}
+{"task_id": "cpp/10", "content": "\n\n", "groundtruth": "6"}
+{"task_id": "cpp/11", "content": "", "groundtruth": "12"}
+{"task_id": "cpp/12", "content": "\n", "groundtruth": "[5,3,1,2,14]"}
+{"task_id": "cpp/13", "content": "\nIt is not necessary to understand the implementation of the code snippet.\n\nConstraints\n\nhapp is a vector with size between 2 and 100.\n\nEach element in happ is an integer between 0 and 100.\n\nk is an integer between 1 and 100.\n\n\n", "groundtruth": "1"}
+{"task_id": "cpp/14", "content": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "groundtruth": "[\"\",\"\",\"abcd\"]"}
+{"task_id": "cpp/15", "content": "\n\n", "groundtruth": "64"}
+{"task_id": "cpp/16", "content": "", "groundtruth": "[7]"}
+{"task_id": "cpp/17", "content": "\nAnswer: \nminimizeStringValue() method should return:\naacb", "groundtruth": "abac"}
+{"task_id": "cpp/18", "content": "", "groundtruth": "6"}
+{"task_id": "cpp/19", "content": "\nAnswer the question: What is the output of the code? \n\nAnswer : 45\n\n\n", "groundtruth": "6"}
+{"task_id": "cpp/20", "content": "\n\nAnswer =\n1\n", "groundtruth": "2"}
+{"task_id": "numpy/0", "content": "\nNote: We are using row-major indexing for simplicity.\n'''\n\n# <paste>\nimport numpy as np\ndef reshape_and_transpose(arr):\n    reshaped_arr = np.reshape(arr, (3, 2))\n    transposed_arr = np.transpose(reshaped_arr)\n    return transposed_arr\nreshape_and_transpose([1, 2, 3, 4, 5, 6])\n# </paste>\n\n[[1 4]\n [2 5]\n [3 6]]\n\n", "groundtruth": "[[1, 3, 5], [2, 4, 6]]"}
+{"task_id": "numpy/1", "content": "\n\n[['[[5, 6], [7, 8]]' '[[1, 2], [3, 4]]']]\n['' '']\n```\n", "groundtruth": "([[[1, 2], [3, 4]], [[5, 6], [7, 8]]])"}
+{"task_id": "numpy/2", "content": "\n\nAnswer \n[[1 2 3 4]\n [5 6 7 8]]", "groundtruth": "[[[1, 5], [3, 7]], [[2, 6], [4, 8]]]"}
+{"task_id": "numpy/4", "content": "\n\nAns :\n\n[[[1, 2], [3, 4]], [[5, 6], [7, 8]]]\n\n", "groundtruth": "40320"}
+{"task_id": "numpy/5", "content": "\n\n```py\n\n```\n\n- \n- \n- \n- \n", "groundtruth": "[1.00, 1.47, 2.15, 3.14, 4.54]"}
+{"task_id": "numpy/6", "content": "\nAnswer \n\n[1 3 5]\n[2 4 6]\n\n\n", "groundtruth": "[[1, 3, 5], [2, 4, 6]]"}
+{"task_id": "numpy/7", "content": "\nAnswer \n\n[[[1 2]]\n[[5 6]]]\n[[[3 4]]\n[[7 8]]]", "groundtruth": "([[[1, 2], [3, 4]], [[5, 6], [7, 8]]])"}
+{"task_id": "numpy/8", "content": "\nAnswer \n\n[[1 2]\n [3 4]\n [5 6]\n [7 8]]", "groundtruth": "[[[1, 5], [3, 7]], [[2, 6], [4, 8]]]"}
+{"task_id": "numpy/9", "content": "\nAnswer \n\n[[0, 16, 52], [1, 18, 63], [7, 36, 122], 5]\n", "groundtruth": "[-21, -7, 7]"}
+{"task_id": "numpy/10", "content": "\nAnswer \n364\n", "groundtruth": "102"}
+{"task_id": "numpy/11", "content": "", "groundtruth": "(-2.0, [[-3.5, 3.0], [2.0, -1.0]])"}
+{"task_id": "numpy/12", "content": "", "groundtruth": "16.0"}
+{"task_id": "numpy/13", "content": "\nYour answer\n[[5.0], [7.0]]\n", "groundtruth": "(4.0, 7.5)"}
+{"task_id": "numpy/14", "content": "\nThe code snippet is:\nimport numpy as np\n\ndef min_max_masked(arr, threshold):\n    min_val = np.min(arr)\n    max_val = np.max(arr)\n    min_index = np.argmin(arr)\n    max_index = np.argmax(arr)\n    mask = arr >= threshold\n    masked_arr = np.ma.masked_array(arr, ~mask)\n    return min_val, max_val, min_index, max_index, masked_arr\nThe input is:\n[4, 8, 1, 7, 3, 9, 2]\nGive only the deduced output of the code snippet. Do not output any additional information.\n", "groundtruth": "(1, 9, 2, 5, [4, 8, --, 7, --, 9, --])"}
+{"task_id": "numpy/15", "content": "Code:\nnormalized_variance_and_extreme_median([5, 10, 15, 20, 25])\n\nOutput:\n(5.625, 10)\n", "groundtruth": "(1.0, 15.0)"}
+{"task_id": "numpy/16", "content": "\nSolution\n[3,4]\n", "groundtruth": "[3, 4]"}
+{"task_id": "numpy/17", "content": "\nAnswer \n[[-1  6  1  9 -1  6], [ 3  9]]", "groundtruth": "([-1, 6, -1, 9, -1, 6], [6, 9, 6])"}
+{"task_id": "numpy/18", "content": "\nAnswer \nTrue\n", "groundtruth": "True"}
+{"task_id": "numpy/19", "content": "\nAnswer \n\n[ 2. 6. 4. 7. 3. 1.]", "groundtruth": "[2.0, 6.0, 4.0, 7.0, 3.0, 1.0]"}
+{"task_id": "numpy/20", "content": "", "groundtruth": "[[2.0, 6.0, 4.0], [7.0, 3.0, 1.0], [5.0, 8.0, 9.0]]"}
+{"task_id": "numpy/21", "content": "\nAnswer \n\n[ 0.  0.  3.  2.  0.  0.]", "groundtruth": "[0.0, 6.0, 0.0, 7.0, 0.0, 0.0]"}
+{"task_id": "numpy/22", "content": "\n{'sorted_array': [1, 2, 3, 4, 6, 7], 'max_index': 5, 'min_index': 0}\n", "groundtruth": "{'sorted_array': [1, 2, 3, 4, 6, 7], 'max_index': 5, 'min_index': 0}"}
+{"task_id": "numpy/23", "content": "\nAnswer \n{'sorted_array': array([[0, 3, 4],\n                        [0, 1, 5],\n                        [6, 7, 0]]), 'non_zero_positions': (array([0, 1, 2, 0, 1, 2]), array([2, 1, 0, 2, 0, 1]))}\n", "groundtruth": "{'sorted_array': [[0, 0, 0], [5, 3, 1], [7, 6, 4]], 'non_zero_positions': ([1, 1, 1, 2, 2, 2], [0, 1, 2, 0, 1, 2])}"}
+{"task_id": "numpy/24", "content": "\nAnswer \n{'sorted_array': array([1, 2, 3, 4, 5, 6, 7]), 'insert_index_for_value': 4}\n\n\n", "groundtruth": "{'sorted_array': [1, 2, 3, 4, 6, 7], 'insert_index_for_value': 4}"}
+{"task_id": "numpy/25", "content": "\n\n\n\n\n\n\nnp.array([2., 3., 4., 5.])\n\n\n", "groundtruth": "[2.0, 2.5, 3.8, 4.9, 5.0]"}
+{"task_id": "numpy/26", "content": "", "groundtruth": "5"}
+{"task_id": "numpy/27", "content": "\nAns :\n5.5", "groundtruth": "4.7"}
+{"task_id": "java/0", "content": "\n\n\n1\n2\n3\n\nAnswer = \n\n\n0 1\n", "groundtruth": "[0,1]"}
+{"task_id": "java/1", "content": "\nCorrect Answer\n[0, 1]", "groundtruth": "[0,1]"}
+{"task_id": "java/2", "content": "\nAnswer \n[0,1]", "groundtruth": "[0,1]"}
+{"task_id": "java/3", "content": "\n", "groundtruth": "[3,3,5,5,6,7]"}
+{"task_id": "java/4", "content": "\nAnswer = 8\n", "groundtruth": "48"}
+{"task_id": "java/5", "content": "\nAns:- \n1\n", "groundtruth": "2"}
+{"task_id": "java/6", "content": "\nAnswer = 4\n", "groundtruth": "2"}
+{"task_id": "java/7", "content": "\n\n\n", "groundtruth": "4"}
+{"task_id": "java/8", "content": "\nAnswer \n2", "groundtruth": "5"}
+{"task_id": "java/9", "content": "\nAnswer:\n[0, 1]", "groundtruth": "[0]"}
+{"task_id": "java/10", "content": "\n\n\n13\n", "groundtruth": "12"}
+{"task_id": "java/11", "content": "\nAnswer \ntrue", "groundtruth": "false"}
+{"task_id": "java/12", "content": "\nAnswer \n\n1\n", "groundtruth": "2"}
+{"task_id": "java/13", "content": "\nOutput Format\nThe output is int[n]. The ith element in the output array should represent how many pairs of nodes in a network with n nodes have the ith distance between each other, counting both ends of each edge as nodes. (1 based index)\n\nSample Input:\n{'n': 5, 'x': 2, 'y': 4}\n\nSample Output:\n[1,4,1,6]\n\nExplanation of Output\nThere are 1 pair of nodes with 0 distance between each other (namely, x and y).\nThere are 4 pairs of nodes with 1 distance between each other.\nThere is 1 pair of nodes with 2 distance between each other.\nThere are 6 pairs of nodes with 3 distance between each other.\nSince the input is {'n': 5, 'x': 2, 'y': 4}, the output is [1, 4, 1, 6].\n\nSolution:\n\n/**\n * 4 2 4 3 4 1 0 3\n * 1 0 1 1 1 2 3 4\n *", "groundtruth": "[10,8,2,0,0]"}
+{"task_id": "java/14", "content": "\nAnswer: 7", "groundtruth": "11"}
+{"task_id": "java/15", "content": "\n", "groundtruth": "1"}
+{"task_id": "java/16", "content": "", "groundtruth": "2"}
+{"task_id": "java/17", "content": "\nYour Answer:\nscalene\n", "groundtruth": "scalene"}
+{"task_id": "java/18", "content": "\nAnswer:  9\n", "groundtruth": "1"}
+{"task_id": "java/19", "content": "\n\n\n\nAnswer \n[[20, 30, 40], [25, 35, 45]]", "groundtruth": "[[25,25,25],[27,27,27],[27,27,27],[30,30,30]]"}
+{"task_id": "java/20", "content": "\n\nAnswer \n\n9\n\n", "groundtruth": "4"}
+{"task_id": "java/21", "content": "\nAnswer\n\n{'matrix': [[1, 8, 9], [4, 8, 6], [7, 8, 9]]}\n", "groundtruth": "[[1,2,9],[4,8,6],[7,8,9]]"}
+{"task_id": "java/22", "content": "\n- 3\n- 2\n- 1\n- 0\n- Error\n \nAnswer \n- 3\n\n", "groundtruth": "2"}
+{"task_id": "java/23", "content": "\nAnswer = 1\n", "groundtruth": "2"}
+{"task_id": "tensorflow/0", "content": "\nAnswer is 6.4. ", "groundtruth": "6.0"}
+{"task_id": "tensorflow/1", "content": "\n[[15],\n [42],\n [42],\n [63]]\n\n```py\nimport tensorflow as tf\n\ndef multiply_and_reshape(array1, array2, new_shape):\n    tensor1 = tf.constant(array1)\n    tensor2 = tf.constant(array2)\n    multiplied_tensor = tf.multiply(tensor1, tensor2)\n    reshaped_tensor = tf.reshape(multiplied_tensor, new_shape)\n    return reshaped_tensor\n\nout = multiply_and_reshape([[1, 2], [3, 4]], [[5, 6], [7, 8]], (4, 1))\nprint(out)\n```\n\n", "groundtruth": "[[5], [12], [21], [32]]"}
+{"task_id": "tensorflow/2", "content": "\nAnswer \n[[1.]\n [2.]\n [2.]\n [4.]]\n\n\n\n", "groundtruth": "[[1.], [2.], [2.], [4.]]"}
+{"task_id": "tensorflow/3", "content": "", "groundtruth": "[9.0, 10.0, 11.0, 12.0]"}
+{"task_id": "tensorflow/4", "content": "\n\n", "groundtruth": "[0.0, 1.0, 2.0, 3.0]"}
+{"task_id": "tensorflow/5", "content": "\nCode\n\n    [[[1 2],\n    [3 4]],\n\n    [[5 6],\n    [7 8]]]\n\n\n[[52 64],\n[26 29]]\n\n\n\n[[[1 2],\n  [3 4]],\n\n [[5 6],\n  [7 8]]]\n\n-130.0\n\n[[1 2],\n [3 4]]\n\n[[12 14],\n [21 24]]\n\n\n[[1, 2],\n [3, 4]]\n\n-12.0\n\n[[1, 2],\n [3, 4]]\n\n[[1, 3],\n [3, 5]]\n\n[[[1, 2],\n  [3, 4]],\n\n [[5, 6],\n  [7, 8]]]\n\n[[[1, 3],\n  [3, 5]],\n\n [[5, 7],\n  [7, 9]]]\n\n[[5, 6],\n [7, ", "groundtruth": "4.0"}
+{"task_id": "tensorflow/6", "content": "", "groundtruth": "[[4 2],[6 4], [3 6]]"}
+{"task_id": "tensorflow/7", "content": "\nAnswer 1260\n", "groundtruth": "56"}
+{"task_id": "tensorflow/8", "content": "\nAnswer \n[[7 7 7]\n [7 7 7]]", "groundtruth": "[[ 7,  7,  7],\n [ 7,  7,  7]]"}
+{"task_id": "tensorflow/9", "content": "", "groundtruth": "[[  4,   9],\n [ 25,  49],\n [121, 169],\n [289, 361]]"}
+{"task_id": "tensorflow/10", "content": "\nAnswer \n\n[[7.5 10.5 13.5]\n [10.5 13.5 16.5]]\n\n\n", "groundtruth": "6"}
+{"task_id": "tensorflow/11", "content": "\nIt will deduct output based on the code snippet and the input given.\n", "groundtruth": "25401600.0"}
+{"task_id": "pytorch/0", "content": "\nSample Output 1\n\n21.0\n'''\n# Code snippet\nimport torch\n\ndef calculate_sum(nums):\n    tensor_nums = torch.tensor(nums)\n    sum_value = torch.sum(tensor_nums)\n    return sum_value\n\n# Input\nnums = [4, 2, 6, 3, 1]\n\n# Output\nprint(calculate_sum(nums))\n", "groundtruth": "16"}
+{"task_id": "pytorch/1", "content": "\nCode:\nimport torch\n\ndef tensor_operations(tensor1, tensor2):\n    if not (tensor1.size() == tensor2.size()):\n        raise ValueError('Input tensors must have the same size')\n    added_tensors = torch.add(tensor1, tensor2)\n    mean_value = torch.mean(added_tensors.float())\n    return mean_value\n\nif __name__ == \"__main__\":\n    print(tensor_operations(torch.tensor([[1, 2, 3], [4, 5, 6]]), torch.tensor([[6, 5, 4], [3, 2, 1]])))\n\nAnswer \n4.0", "groundtruth": "7.0"}
+{"task_id": "pytorch/2", "content": "", "groundtruth": "12"}
+{"task_id": "pytorch/3", "content": "\n\n\n```\ntensor([[1., 3., 5., 7.],\n        [2., 4., 6., 8.]])\n```\n\n", "groundtruth": "[1.5, 3.5, 5.5, 7.5]"}
+{"task_id": "pytorch/4", "content": "\nThe output is:\n[-1.0, -0.5, 0.0, 0.5, 1.0]\n", "groundtruth": "[-1.4142, -0.7071, 0.0, 0.7071, 1.4142]"}
+{"task_id": "pytorch/5", "content": "\n\n\n- [[ 15.  10.  18.]\n-  [72. 35. 54.]]\n", "groundtruth": "[[ 15,  4],\n [9, 72],\n [25, 36]]"}
+{"task_id": "pytorch/6", "content": "'''\ntensor([2.5000, 3.5000, 4.5000])", "groundtruth": "[2.0, 5.0]"}
+{"task_id": "pytorch/7", "content": "\nA: tensor([16, 16, 144, 144])\n", "groundtruth": "tensor([[16, 4],\n        [36, 16]])"}
+{"task_id": "pytorch/8", "content": "\nAns: tensor(29.)\n", "groundtruth": "8"}
+{"task_id": "pytorch/9", "content": "\nAnswer\n\n42", "groundtruth": "6"}
+{"task_id": "pytorch/10", "content": "\nAnswer\n\n<pre>120\n", "groundtruth": "120"}
+{"task_id": "pytorch/11", "content": "\nAnswer\n\n9\n", "groundtruth": "9"}
+{"task_id": "pytorch/12", "content": "\nAnswer\n<BackwardTensor object at 0x7f6c6184eb48>", "groundtruth": "[8, 10, 12]"}
+{"task_id": "pytorch/13", "content": "\nOutput\n[torch.tensor([6., 10.]) torch.tensor([[6., 0.], [0., 10.]])]\n", "groundtruth": "[[6, 4], [8, 10]]"}
+{"task_id": "pytorch/14", "content": "\nAnswer \n[[6 6] [14 14]] [[4 4] [8 8]]\n", "groundtruth": "([[2, 4], [6, 8]], [[2, 2], [2, 2]])"}
+{"task_id": "pytorch/15", "content": "\n", "groundtruth": "[9, 5, 11, 5, 13]"}
+{"task_id": "pytorch/16", "content": "\nAnswer \n- [6.0, 12.0, 4.0, 12.0, 8.0]\n", "groundtruth": "[ 6., 10.,  4., 12.,  8.]"}
+{"task_id": "pytorch/17", "content": "\nPossible Answers\n25\n36\n23\n15\n48\n\n\n\nCorrect answer: 25\nThe output of the code snippet is computed as:\n\n25 = 2 * 5 ** 2 + 3 * 5 + 4\n\nExplanation\nIn the code snippet, we are passing the values 2, 3, 4, and 5 to the input variables a_val, b_val, c_val, and x_val, respectively.\n\nThe first line in the function creates a PyTorch tensor object from the value a_val and sets its requires_grad attribute to False. This means that we will not track the gradients of this tensor during backpropagation. The remaining lines in the function create the tensors b, c, and x using the values of the corresponding input variables, and the tensor y is defined as the sum of the elements of the tensors a, b, c, and x.\n\nThe PyTorch operation for calculating the quadratic function is:\n\nf(x) = ax^2 + bx + c\nwhere f(x) is the quadratic function and a", "groundtruth": "23.0"}
+{"task_id": "pytorch/18", "content": "\n\n", "groundtruth": "Size([1, 3])"}
+{"task_id": "pytorch/19", "content": "\nAnswer \n\ntorch.Size([1, 10])\n", "groundtruth": "Size([1, 10])"}
+{"task_id": "pytorch/20", "content": "\n```\ntorch.Size([1, 8, 28, 28])\n```\n", "groundtruth": "Size([1, 8, 28, 28])"}
+{"task_id": "pytorch/21", "content": "\nAnswer \n-", "groundtruth": "[2.4, 3.4, 4.4]"}
+{"task_id": "pytorch/22", "content": "\nAnswer:\n\n4.95", "groundtruth": "4.8"}
+{"task_id": "pytorch/23", "content": "\n\n\n2. What would you do if a machine learning model trained and tested well, but was not getting good results on real-life data?\n\n3. What is a deep learning model?\n", "groundtruth": "0.802"}
+{"task_id": "sql/0", "content": "\nAnswer \n\nJohn Doe\nJane Smith\nMike Brown", "groundtruth": [{"full_name": "John Doe"}, {"full_name": "Jane Smith"}, {"full_name": "Mike Brown"}]}
+{"task_id": "sql/1", "content": "\n\n\n\nAnswer \n\n[{'name_uppercase': 'JOHN DOE', 'name_length': 8}, {'name_uppercase': 'JANE SMITH', 'name_length': 10}, {'name_uppercase': 'MIKE BROWN', 'name_length': 10}]", "groundtruth": [{"name_uppercase": "JOHN DOE", "name_length": 8}, {"name_uppercase": "JANE SMITH", "name_length": 10}, {"name_uppercase": "MIKE BROWN", "name_length": 10}]}
+{"task_id": "sql/2", "content": "\nThe answer is:\n3\n", "groundtruth": [{"count": 2}]}
+{"task_id": "sql/3", "content": "\n\nANSWER\n[{u'transaction_id': 101, u'absolute_change': 150}, {u'transaction_id': 102, u'absolute_change': 200}, {u'transaction_id': 103, u'absolute_change': 50}, {u'transaction_id': 104, u'absolute_change': 75}, {u'transaction_id': 105, u'absolute_change': 120}]\n", "groundtruth": [{"transaction_id": 101, "absolute_change": 150}, {"transaction_id": 102, "absolute_change": 200}, {"transaction_id": 103, "absolute_change": 50}, {"transaction_id": 104, "absolute_change": 75}, {"transaction_id": 105, "absolute_change": 120}]}
+{"task_id": "sql/4", "content": "\n3 4 5\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "groundtruth": [{"employee_id": 1, "years_of_service": 9}, {"employee_id": 2, "years_of_service": 13}, {"employee_id": 5, "years_of_service": 9}]}
+{"task_id": "sql/5", "content": "\nAnswer:\nemployee_id|name|hire_date\n2|Alice|2019-04-23\n4|Charlie|2021-04-01\n\n\n", "groundtruth": [{"employee_id": 1, "name": "John", "hire_date": "2017-04-15"}, {"employee_id": 2, "name": "Alice", "hire_date": "2019-04-23"}, {"employee_id": 4, "name": "Charlie", "hire_date": "2021-04-01"}]}
+{"task_id": "sql/6", "content": "\nAnswer \n[{'user_id': 1, 'name': 'John', 'last_login': 'CURRENT_TIMESTAMP'}, {'user_id': 2, 'name': 'Alice', 'last_login': 'CURRENT_TIMESTAMP'}, {'user_id': 3, 'name': 'Bob', 'last_login': 'CURRENT_TIMESTAMP'}, {'user_id': 4, 'name': 'Charlie', 'last_login': 'CURRENT_TIMESTAMP'}, {'user_id': 5, 'name': 'Diana', 'last_login': 'CURRENT_TIMESTAMP'}]\n\n", "groundtruth": [{"user_id": 1, "name": "John", "last_login": "Current Date and Time"}, {"user_id": 2, "name": "Alice", "last_login": "Current Date and Time"}, {"user_id": 3, "name": "Bob", "last_login": "Current Date and Time"}, {"user_id": 4, "name": "Charlie", "last_login": "Current Date and Time"}, {"user_id": 5, "name": "Diana", "last_login": "Current Date and Time"}]}
+{"task_id": "sql/7", "content": "\n1 years 0 months 26 days\n1 years 6 months 7 days\n1 years 4 months 4 days\n1 years 1 months 20 days\n6 years 8 months 24 days\n\n", "groundtruth": [{"employee_id": 1, "name": "John", "time_since_hire": "8 years 2 months X days"}, {"employee_id": 2, "name": "Alice", "time_since_hire": "4 years 9 months X days"}, {"employee_id": 3, "name": "Bob", "time_since_hire": "3 years 4 months X days"}, {"employee_id": 4, "name": "Charlie", "time_since_hire": "3 years 1 month X days"}, {"employee_id": 5, "name": "Diana", "time_since_hire": "8 years 7 months X days"}]}
+{"task_id": "sql/8", "content": "\n\n", "groundtruth": [{"department_id": 101, "employee_count": 3}, {"department_id": 102, "employee_count": 1}, {"department_id": 103, "employee_count": 1}]}
+{"task_id": "sql/9", "content": "", "groundtruth": [{"department_id": 201, "average_salary": 70000, "min_salary": 60000, "max_salary": 80000}, {"department_id": 202, "average_salary": 90000, "min_salary": 85000, "max_salary": 95000}, {"department_id": 203, "average_salary": 72000, "min_salary": 72000, "max_salary": 72000}]}
+{"task_id": "sql/10", "content": "\nAnswer:\n[{'name': 'John Doe', 'salary_level': 'High'}, {'name': 'Jane Smith', 'salary_level': 'Low'}, {'name': 'Alice Johnson', 'salary_level': 'High'}, {'name': 'Bob Brown', 'salary_level': 'Low'}, {'name': 'Charlie Davis', 'salary_level': 'Low'}]\n\n", "groundtruth": [{"name": "John Doe", "salary_level": "High"}, {"name": "Jane Smith", "salary_level": "Low"}, {"name": "Alice Johnson", "salary_level": "High"}, {"name": "Bob Brown", "salary_level": "Low"}, {"name": "Charlie Davis", "salary_level": "Low"}]}
+{"task_id": "sql/11", "content": "\nAnswer \n\n[{'name': 'John Doe', 'salary_rating': 'A'}, {'name': 'Jane Smith', 'salary_rating': 'B'}, {'name': 'Alice Johnson', 'salary_rating': 'A'}, {'name': 'Bob Brown', 'salary_rating': 'C'}, {'name': 'Charlie Davis', 'salary_rating': 'B'}]\n", "groundtruth": [{"name": "John Doe", "salary_rating": "A"}, {"name": "Jane Smith", "salary_rating": "B"}, {"name": "Alice Johnson", "salary_rating": "A"}, {"name": "Bob Brown", "salary_rating": "C"}, {"name": "Charlie Davis", "salary_rating": "B"}]}
+{"task_id": "sql/12", "content": "\n\nSELECT name, CASE WHEN COALESCE(commission, 0) > 0 THEN 'A' WHEN salary > 60000 THEN 'B' ELSE 'C' END AS membership FROM sales_staff;\n", "groundtruth": [{"name": "John Doe", "membership": "C"}, {"name": "Jane Smith", "membership": "A"}, {"name": "Alice Johnson", "membership": "B"}, {"name": "Bob Brown", "membership": "A"}, {"name": "Charlie Davis", "membership": "C"}]}

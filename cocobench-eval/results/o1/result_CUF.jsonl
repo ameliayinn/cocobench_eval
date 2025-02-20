@@ -1,0 +1,121 @@
+{"task_id": "cpp/0", "content": "ba", "groundtruth": "ba", "inference_time": 5.100089073181152}
+{"task_id": "cpp/1", "content": "2", "groundtruth": "2", "inference_time": 20.054086923599243}
+{"task_id": "cpp/2", "content": "1", "groundtruth": "1", "inference_time": 8.901116132736206}
+{"task_id": "cpp/3", "content": "3", "groundtruth": "3", "inference_time": 3.5143494606018066}
+{"task_id": "cpp/4", "content": "```\nSecond while str1[i] a str2[j] a\nSecond while str1[i] p str2[j] p\nSecond while str1[i] a str2[j] a\nSecond while str1[i] m str2[j] m\n```", "groundtruth": "2", "inference_time": 11.448121070861816}
+{"task_id": "cpp/5", "content": "97", "groundtruth": "97", "inference_time": 28.993157863616943}
+{"task_id": "cpp/6", "content": "2", "groundtruth": "2", "inference_time": 12.90803837776184}
+{"task_id": "cpp/7", "content": "1", "groundtruth": "1", "inference_time": 4.914178848266602}
+{"task_id": "cpp/8", "content": "6", "groundtruth": "6", "inference_time": 7.918106555938721}
+{"task_id": "cpp/9", "content": "7", "groundtruth": "7", "inference_time": 16.484655141830444}
+{"task_id": "cpp/10", "content": "6", "groundtruth": "6", "inference_time": 7.919925212860107}
+{"task_id": "cpp/11", "content": "12", "groundtruth": "12", "inference_time": 13.839375972747803}
+{"task_id": "cpp/12", "content": "[5, 3, 1, 2, 14]", "groundtruth": "[5,3,1,2,14]", "inference_time": 14.642857313156128}
+{"task_id": "cpp/13", "content": "1", "groundtruth": "1", "inference_time": 1.493116855621338}
+{"task_id": "cpp/14", "content": "[\"\", \"\", \"abcd\"]", "groundtruth": "[\"\",\"\",\"abcd\"]", "inference_time": 10.75537896156311}
+{"task_id": "cpp/15", "content": "48", "groundtruth": "64", "inference_time": 14.386162996292114}
+{"task_id": "cpp/16", "content": "[7]", "groundtruth": "[7]", "inference_time": 5.913809537887573}
+{"task_id": "cpp/17", "content": "abac", "groundtruth": "abac", "inference_time": 2.956634998321533}
+{"task_id": "cpp/18", "content": "6", "groundtruth": "6", "inference_time": 4.236577987670898}
+{"task_id": "cpp/19", "content": "6", "groundtruth": "6", "inference_time": 1.7713842391967773}
+{"task_id": "cpp/20", "content": "2", "groundtruth": "2", "inference_time": 10.670199155807495}
+{"task_id": "numpy/0", "content": "```python\n[[1 3 5]\n [2 4 6]]\n```", "groundtruth": "[[1, 3, 5], [2, 4, 6]]", "inference_time": 3.049257278442383}
+{"task_id": "numpy/1", "content": "```python\n(array([[1, 2],\n        [3, 4]]), array([[5, 6],\n        [7, 8]]))\n```", "groundtruth": "([[[1, 2], [3, 4]], [[5, 6], [7, 8]]])", "inference_time": 4.2993855476379395}
+{"task_id": "numpy/2", "content": "```python\n[[[1, 2], [5, 6]], [[3, 4], [7, 8]]]\n```", "groundtruth": "[[[1, 5], [3, 7]], [[2, 6], [4, 8]]]", "inference_time": 7.843254804611206}
+{"task_id": "numpy/4", "content": "40320", "groundtruth": "40320", "inference_time": 3.1411800384521484}
+{"task_id": "numpy/5", "content": "```python\n[1.0, 1.28, 1.65, 2.12, 2.72]\n```", "groundtruth": "[1.00, 1.47, 2.15, 3.14, 4.54]", "inference_time": 3.0158469676971436}
+{"task_id": "numpy/6", "content": "```\n[[1 3 5]\n [2 4 6]]\n```", "groundtruth": "[[1, 3, 5], [2, 4, 6]]", "inference_time": 1.6783835887908936}
+{"task_id": "numpy/7", "content": "```python\n(array([[1, 2],\n        [3, 4]]), array([[5, 6],\n                        [7, 8]]))\n```", "groundtruth": "([[[1, 2], [3, 4]], [[5, 6], [7, 8]]])", "inference_time": 3.4844822883605957}
+{"task_id": "numpy/8", "content": "```python\narray([[[1, 2],\n        [5, 6]],\n\n       [[3, 4],\n        [7, 8]]])\n```", "groundtruth": "[[[1, 5], [3, 7]], [[2, 6], [4, 8]]]", "inference_time": 8.222289562225342}
+{"task_id": "numpy/9", "content": "```\n[-14  18  66]\n```", "groundtruth": "[-21, -7, 7]", "inference_time": 3.9722790718078613}
+{"task_id": "numpy/10", "content": "75", "groundtruth": "102", "inference_time": 1.2157530784606934}
+{"task_id": "numpy/11", "content": "```python\n(-10.0, array([[-0.7,  0.6],\n              [ 0.4, -0.2]]))\n```", "groundtruth": "(-2.0, [[-3.5, 3.0], [2.0, -1.0]])", "inference_time": 2.4494621753692627}
+{"task_id": "numpy/12", "content": "40.0", "groundtruth": "16.0", "inference_time": 2.1280393600463867}
+{"task_id": "numpy/13", "content": "(5.0, 7.0)", "groundtruth": "(4.0, 7.5)", "inference_time": 3.4609086513519287}
+{"task_id": "numpy/14", "content": "```python\n(1, 9, 2, 5, masked_array(data=[--, 8, --, 7, --, 9, --],\n             mask=[ True, False,  True, False,  True, False,  True],\n       fill_value=999999))\n```", "groundtruth": "(1, 9, 2, 5, [4, 8, --, 7, --, 9, --])", "inference_time": 6.328445911407471}
+{"task_id": "numpy/15", "content": "```python\n(1.0, 15.0)\n```", "groundtruth": "(1.0, 15.0)", "inference_time": 6.125094652175903}
+{"task_id": "numpy/16", "content": "```\n[3 4]\n```", "groundtruth": "[3, 4]", "inference_time": 1.7805078029632568}
+{"task_id": "numpy/17", "content": "```python\n(array([[-1,  6, -1,  9, -1,  6]]), array([9]))\n```", "groundtruth": "([-1, 6, -1, 9, -1, 6], [6, 9, 6])", "inference_time": 4.1333911418914795}
+{"task_id": "numpy/18", "content": "True", "groundtruth": "True", "inference_time": 4.0085859298706055}
+{"task_id": "numpy/19", "content": "```python\n[2. 6. 4. 7. 3. 1.]\n```", "groundtruth": "[2.0, 6.0, 4.0, 7.0, 3.0, 1.0]", "inference_time": 4.014376163482666}
+{"task_id": "numpy/20", "content": "```\n[[2. 6. 4.]\n [7. 3. 1.]\n [5. 8. 9.]]\n```", "groundtruth": "[[2.0, 6.0, 4.0], [7.0, 3.0, 1.0], [5.0, 8.0, 9.0]]", "inference_time": 12.25413727760315}
+{"task_id": "numpy/21", "content": "```\n[5.185, 7.907, 8.246, 5.081, 12.516, 4.025]\n```", "groundtruth": "[0.0, 6.0, 0.0, 7.0, 0.0, 0.0]", "inference_time": 112.3942620754242}
+{"task_id": "numpy/22", "content": "```python\n{\n    'sorted_array': array([1, 2, 3, 4, 6, 7]),\n    'max_index': 5,\n    'min_index': 0\n}\n```", "groundtruth": "{'sorted_array': [1, 2, 3, 4, 6, 7], 'max_index': 5, 'min_index': 0}", "inference_time": 2.613213300704956}
+{"task_id": "numpy/23", "content": "```python\n{\n  'sorted_array': \n    array([[0, 0, 0],\n           [5, 3, 1],\n           [7, 6, 4]]),\n  'non_zero_positions': (array([1, 1, 1, 2, 2, 2]), array([0, 1, 2, 0, 1, 2]))\n}\n```", "groundtruth": "{'sorted_array': [[0, 0, 0], [5, 3, 1], [7, 6, 4]], 'non_zero_positions': ([1, 1, 1, 2, 2, 2], [0, 1, 2, 0, 1, 2])}", "inference_time": 4.826204061508179}
+{"task_id": "numpy/24", "content": "```python\n{\n    'sorted_array': array([1, 2, 3, 4, 6, 7]),\n    'insert_index_for_value': 4\n}\n```", "groundtruth": "{'sorted_array': [1, 2, 3, 4, 6, 7], 'insert_index_for_value': 4}", "inference_time": 3.9060938358306885}
+{"task_id": "numpy/25", "content": "```python\n[2.0, 2.5, 3.8, 4.9, 5.0]\n```", "groundtruth": "[2.0, 2.5, 3.8, 4.9, 5.0]", "inference_time": 4.372704267501831}
+{"task_id": "numpy/26", "content": "5", "groundtruth": "5", "inference_time": 1.8722524642944336}
+{"task_id": "numpy/27", "content": "5.666666666666667", "groundtruth": "4.7", "inference_time": 10.155487298965454}
+{"task_id": "java/0", "content": "[0, 1]", "groundtruth": "[0,1]", "inference_time": 2.9414613246917725}
+{"task_id": "java/1", "content": "```java\n[0, 1]\n```", "groundtruth": "[0,1]", "inference_time": 1.6503493785858154}
+{"task_id": "java/2", "content": "[0, 1]", "groundtruth": "[0,1]", "inference_time": 2.3905029296875}
+{"task_id": "java/3", "content": "[3, 3, 5, 5, 6, 7]", "groundtruth": "[3,3,5,5,6,7]", "inference_time": 1.3944618701934814}
+{"task_id": "java/4", "content": "48", "groundtruth": "48", "inference_time": 1.7754127979278564}
+{"task_id": "java/5", "content": "2", "groundtruth": "2", "inference_time": 6.149440765380859}
+{"task_id": "java/6", "content": "2", "groundtruth": "2", "inference_time": 2.402888536453247}
+{"task_id": "java/7", "content": "Cannot deduce the output as the code snippet was not provided.", "groundtruth": "4", "inference_time": 2.6689553260803223}
+{"task_id": "java/8", "content": "5", "groundtruth": "5", "inference_time": 1.8346278667449951}
+{"task_id": "java/9", "content": "[0]", "groundtruth": "[0]", "inference_time": 6.644280672073364}
+{"task_id": "java/10", "content": "12", "groundtruth": "12", "inference_time": 2.32431697845459}
+{"task_id": "java/11", "content": "false", "groundtruth": "false", "inference_time": 8.394371747970581}
+{"task_id": "java/12", "content": "2", "groundtruth": "2", "inference_time": 3.2083258628845215}
+{"task_id": "java/13", "content": "[10, 8, 2, 0, 0]", "groundtruth": "[10,8,2,0,0]", "inference_time": 8.517092227935791}
+{"task_id": "java/14", "content": "11", "groundtruth": "11", "inference_time": 20.41966199874878}
+{"task_id": "java/15", "content": "1", "groundtruth": "1", "inference_time": 10.009158849716187}
+{"task_id": "java/16", "content": "2", "groundtruth": "2", "inference_time": 28.25920343399048}
+{"task_id": "java/17", "content": "scalene", "groundtruth": "scalene", "inference_time": 1.8298909664154053}
+{"task_id": "java/18", "content": "1", "groundtruth": "1", "inference_time": 4.442444324493408}
+{"task_id": "java/19", "content": "```json\n{\n  \"result\": [\n    [25, 25, 25],\n    [27, 27, 27],\n    [27, 27, 27],\n    [30, 30, 30]\n  ]\n}\n```", "groundtruth": "[[25,25,25],[27,27,27],[27,27,27],[30,30,30]]", "inference_time": 18.495279788970947}
+{"task_id": "java/20", "content": "4", "groundtruth": "4", "inference_time": 5.749141216278076}
+{"task_id": "java/21", "content": "```json\n[[1, 2, 9], [4, 8, 6], [7, 8, 9]]\n```", "groundtruth": "[[1,2,9],[4,8,6],[7,8,9]]", "inference_time": 5.131307601928711}
+{"task_id": "java/22", "content": "2", "groundtruth": "2", "inference_time": 7.030261993408203}
+{"task_id": "java/23", "content": "2", "groundtruth": "2", "inference_time": 5.652318000793457}
+{"task_id": "tensorflow/0", "content": "6.0", "groundtruth": "6.0", "inference_time": 14.786020278930664}
+{"task_id": "tensorflow/1", "content": "```python\ntf.Tensor(\n[[ 5]\n [12]\n [21]\n [32]], shape=(4, 1), dtype=int32)\n```", "groundtruth": "[[5], [12], [21], [32]]", "inference_time": 3.7183194160461426}
+{"task_id": "tensorflow/2", "content": "```python\narray([[1.],\n       [2.],\n       [2.],\n       [4.]], dtype=float32)\n```", "groundtruth": "[[1.], [2.], [2.], [4.]]", "inference_time": 3.1053221225738525}
+{"task_id": "tensorflow/3", "content": "```\ntf.Tensor([ 9. 10. 11. 12.], shape=(4,), dtype=float32)\n```", "groundtruth": "[9.0, 10.0, 11.0, 12.0]", "inference_time": 3.2365379333496094}
+{"task_id": "tensorflow/4", "content": "```python\narray([0., 1., 2., 3.], dtype=float32)\n```", "groundtruth": "[0.0, 1.0, 2.0, 3.0]", "inference_time": 4.060968637466431}
+{"task_id": "tensorflow/5", "content": "4.0", "groundtruth": "4.0", "inference_time": 3.379974365234375}
+{"task_id": "tensorflow/6", "content": "```plaintext\ntf.Tensor(\n[[4 2]\n [6 4]\n [3 6]], shape=(3, 2), dtype=int32)\n```", "groundtruth": "[[4 2],[6 4], [3 6]]", "inference_time": 9.820037126541138}
+{"task_id": "tensorflow/7", "content": "56", "groundtruth": "56", "inference_time": 10.212082147598267}
+{"task_id": "tensorflow/8", "content": "```\n[[7 7 7]\n [7 7 7]]\n```", "groundtruth": "[[ 7,  7,  7],\n [ 7,  7,  7]]", "inference_time": 5.514285564422607}
+{"task_id": "tensorflow/9", "content": "```python\n[[  4   9]\n [ 25  49]\n [121 169]\n [289 361]]\n```", "groundtruth": "[[  4,   9],\n [ 25,  49],\n [121, 169],\n [289, 361]]", "inference_time": 3.6984386444091797}
+{"task_id": "tensorflow/10", "content": "6.5", "groundtruth": "6", "inference_time": 2.742405652999878}
+{"task_id": "tensorflow/11", "content": "25401600.0", "groundtruth": "25401600.0", "inference_time": 4.053451776504517}
+{"task_id": "pytorch/0", "content": "```\ntensor(16)\n```", "groundtruth": "16", "inference_time": 1.9324467182159424}
+{"task_id": "pytorch/1", "content": "tensor(7.0)", "groundtruth": "7.0", "inference_time": 2.287595510482788}
+{"task_id": "pytorch/2", "content": "```python\ntensor(12)\n```", "groundtruth": "12", "inference_time": 2.191530227661133}
+{"task_id": "pytorch/3", "content": "```python\ntensor([1.5000, 3.5000, 5.5000, 7.5000])\n```", "groundtruth": "[1.5, 3.5, 5.5, 7.5]", "inference_time": 2.439953565597534}
+{"task_id": "pytorch/4", "content": "```python\n[-1.4142135381698608, -0.7071067690849304, 0.0, 0.7071067690849304, 1.4142135381698608]\n```", "groundtruth": "[-1.4142, -0.7071, 0.0, 0.7071, 1.4142]", "inference_time": 4.099813938140869}
+{"task_id": "pytorch/5", "content": "```python\ntensor([[15,  4],\n        [ 9, 72],\n        [25, 36]])\n```", "groundtruth": "[[ 15,  4],\n [9, 72],\n [25, 36]]", "inference_time": 3.4685792922973633}
+{"task_id": "pytorch/6", "content": "```python\ntensor([2., 5.])\n```", "groundtruth": "[2.0, 5.0]", "inference_time": 3.486381769180298}
+{"task_id": "pytorch/7", "content": "```python\ntensor([[16,  4],\n        [36, 16]])\n```", "groundtruth": "tensor([[16, 4],\n        [36, 16]])", "inference_time": 2.0044689178466797}
+{"task_id": "pytorch/8", "content": "8", "groundtruth": "8", "inference_time": 4.492544889450073}
+{"task_id": "pytorch/9", "content": "tensor(6)", "groundtruth": "6", "inference_time": 4.421336650848389}
+{"task_id": "pytorch/10", "content": "```\ntensor(120)\n```", "groundtruth": "120", "inference_time": 3.8683886528015137}
+{"task_id": "pytorch/11", "content": "9", "groundtruth": "9", "inference_time": 1.2123513221740723}
+{"task_id": "pytorch/12", "content": "```\ntensor([ 8., 10., 12.])\n```", "groundtruth": "[8, 10, 12]", "inference_time": 7.864630937576294}
+{"task_id": "pytorch/13", "content": "```python\ntensor([[ 6.,  4.],\n        [ 8., 10.]])\n```", "groundtruth": "[[6, 4], [8, 10]]", "inference_time": 2.4505722522735596}
+{"task_id": "pytorch/14", "content": "```python\n(tensor([[2., 4.],\n        [6., 8.]]), tensor([[2., 2.],\n        [2., 2.]]))\n```", "groundtruth": "([[2, 4], [6, 8]], [[2, 2], [2, 2]])", "inference_time": 8.351301193237305}
+{"task_id": "pytorch/15", "content": "```python\ntensor([ 9.,  5., 11.,  5., 13.])\n```", "groundtruth": "[9, 5, 11, 5, 13]", "inference_time": 2.641977548599243}
+{"task_id": "pytorch/16", "content": "```python\ntensor([ 6., 10.,  4., 12.,  8.])\n```", "groundtruth": "[ 6., 10.,  4., 12.,  8.]", "inference_time": 2.4096527099609375}
+{"task_id": "pytorch/17", "content": "23.0", "groundtruth": "23.0", "inference_time": 1.4753689765930176}
+{"task_id": "pytorch/18", "content": "```\ntorch.Size([1, 3])\n```", "groundtruth": "Size([1, 3])", "inference_time": 1.4404840469360352}
+{"task_id": "pytorch/19", "content": "```python\ntorch.Size([1, 10])\n```", "groundtruth": "Size([1, 10])", "inference_time": 8.427366971969604}
+{"task_id": "pytorch/20", "content": "```\ntorch.Size([1, 8, 28, 28])\n```", "groundtruth": "Size([1, 8, 28, 28])", "inference_time": 3.456284761428833}
+{"task_id": "pytorch/21", "content": "```python\n[2.4, 3.4, 4.4]\n```", "groundtruth": "[2.4, 3.4, 4.4]", "inference_time": 2.580416440963745}
+{"task_id": "pytorch/22", "content": "4.8", "groundtruth": "4.8", "inference_time": 2.595461845397949}
+{"task_id": "pytorch/23", "content": "0.802", "groundtruth": "0.802", "inference_time": 2.2966208457946777}
+{"task_id": "sql/0", "content": "| full_name  |\n|------------|\n| John Doe   |\n| Jane Smith |\n| Mike Brown |", "groundtruth": [{"full_name": "John Doe"}, {"full_name": "Jane Smith"}, {"full_name": "Mike Brown"}], "inference_time": 2.8942229747772217}
+{"task_id": "sql/1", "content": "| name_uppercase | name_length |\n|----------------|-------------|\n| JOHN DOE       | 8           |\n| JANE SMITH     | 10          |\n| MIKE BROWN     | 10          |", "groundtruth": [{"name_uppercase": "JOHN DOE", "name_length": 8}, {"name_uppercase": "JANE SMITH", "name_length": 10}, {"name_uppercase": "MIKE BROWN", "name_length": 10}], "inference_time": 3.3126237392425537}
+{"task_id": "sql/2", "content": "0", "groundtruth": [{"count": 2}], "inference_time": 11.56635046005249}
+{"task_id": "sql/3", "content": "| transaction_id | absolute_change |\n|----------------|------------------|\n| 101            | 150              |\n| 102            | 200              |\n| 103            | 50               |\n| 104            | 75               |\n| 105            | 120              |", "groundtruth": [{"transaction_id": 101, "absolute_change": 150}, {"transaction_id": 102, "absolute_change": 200}, {"transaction_id": 103, "absolute_change": 50}, {"transaction_id": 104, "absolute_change": 75}, {"transaction_id": 105, "absolute_change": 120}], "inference_time": 2.291391611099243}
+{"task_id": "sql/4", "content": "```json\n[\n  {\"employee_id\": 1, \"years_of_service\": 9},\n  {\"employee_id\": 2, \"years_of_service\": 14},\n  {\"employee_id\": 3, \"years_of_service\": 7},\n  {\"employee_id\": 5, \"years_of_service\": 10}\n]\n```", "groundtruth": [{"employee_id": 1, "years_of_service": 9}, {"employee_id": 2, "years_of_service": 13}, {"employee_id": 5, "years_of_service": 9}], "inference_time": 5.124201774597168}
+{"task_id": "sql/5", "content": "```json\n[\n  {\"employee_id\": 1, \"name\": \"John\", \"hire_date\": \"2017-04-15\"},\n  {\"employee_id\": 2, \"name\": \"Alice\", \"hire_date\": \"2019-04-23\"},\n  {\"employee_id\": 4, \"name\": \"Charlie\", \"hire_date\": \"2021-04-01\"}\n]\n```", "groundtruth": [{"employee_id": 1, "name": "John", "hire_date": "2017-04-15"}, {"employee_id": 2, "name": "Alice", "hire_date": "2019-04-23"}, {"employee_id": 4, "name": "Charlie", "hire_date": "2021-04-01"}], "inference_time": 2.9532570838928223}
+{"task_id": "sql/6", "content": "```json\n[\n  {\"user_id\": 1, \"name\": \"John\", \"last_login\": \"NOW()\"},\n  {\"user_id\": 2, \"name\": \"Alice\", \"last_login\": \"NOW()\"},\n  {\"user_id\": 3, \"name\": \"Bob\", \"last_login\": \"NOW()\"},\n  {\"user_id\": 4, \"name\": \"Charlie\", \"last_login\": \"NOW()\"},\n  {\"user_id\": 5, \"name\": \"Diana\", \"last_login\": \"NOW()\"}\n]\n```", "groundtruth": [{"user_id": 1, "name": "John", "last_login": "Current Date and Time"}, {"user_id": 2, "name": "Alice", "last_login": "Current Date and Time"}, {"user_id": 3, "name": "Bob", "last_login": "Current Date and Time"}, {"user_id": 4, "name": "Charlie", "last_login": "Current Date and Time"}, {"user_id": 5, "name": "Diana", "last_login": "Current Date and Time"}], "inference_time": 8.034460544586182}
+{"task_id": "sql/7", "content": "| employee_id | name    | time_since_hire           |\n|-------------|---------|---------------------------|\n| 1           | John    | 8 years 9 months 2 days   |\n| 2           | Alice   | 5 years 4 months 10 days  |\n| 3           | Bob     | 3 years 11 months 24 days |\n| 4           | Charlie | 3 years 7 months -2 days  |\n| 5           | Diana   | 9 years 2 months 20 days  |", "groundtruth": [{"employee_id": 1, "name": "John", "time_since_hire": "8 years 2 months X days"}, {"employee_id": 2, "name": "Alice", "time_since_hire": "4 years 9 months X days"}, {"employee_id": 3, "name": "Bob", "time_since_hire": "3 years 4 months X days"}, {"employee_id": 4, "name": "Charlie", "time_since_hire": "3 years 1 month X days"}, {"employee_id": 5, "name": "Diana", "time_since_hire": "8 years 7 months X days"}], "inference_time": 19.120686769485474}
+{"task_id": "sql/8", "content": "```\n| department_id | employee_count |\n|---------------|----------------|\n| 101           | 3              |\n| 102           | 1              |\n| 103           | 1              |\n```", "groundtruth": [{"department_id": 101, "employee_count": 3}, {"department_id": 102, "employee_count": 1}, {"department_id": 103, "employee_count": 1}], "inference_time": 2.240370035171509}
+{"task_id": "sql/9", "content": "| department_id | average_salary | min_salary | max_salary |\n|---------------|----------------|------------|------------|\n| 201           | 70000          | 60000      | 80000      |\n| 202           | 90000          | 85000      | 95000      |\n| 203           | 72000          | 72000      | 72000      |", "groundtruth": [{"department_id": 201, "average_salary": 70000, "min_salary": 60000, "max_salary": 80000}, {"department_id": 202, "average_salary": 90000, "min_salary": 85000, "max_salary": 95000}, {"department_id": 203, "average_salary": 72000, "min_salary": 72000, "max_salary": 72000}], "inference_time": 2.880275249481201}
+{"task_id": "sql/10", "content": "| name          | salary_level |\n|---------------|--------------|\n| John Doe      | High         |\n| Jane Smith    | Low          |\n| Alice Johnson | High         |\n| Bob Brown     | Low          |\n| Charlie Davis | Low          |", "groundtruth": [{"name": "John Doe", "salary_level": "High"}, {"name": "Jane Smith", "salary_level": "Low"}, {"name": "Alice Johnson", "salary_level": "High"}, {"name": "Bob Brown", "salary_level": "Low"}, {"name": "Charlie Davis", "salary_level": "Low"}], "inference_time": 5.868500471115112}
+{"task_id": "sql/11", "content": "| name           | salary_rating |\n|----------------|---------------|\n| John Doe       | A             |\n| Jane Smith     | B             |\n| Alice Johnson  | A             |\n| Bob Brown      | C             |\n| Charlie Davis  | B             |", "groundtruth": [{"name": "John Doe", "salary_rating": "A"}, {"name": "Jane Smith", "salary_rating": "B"}, {"name": "Alice Johnson", "salary_rating": "A"}, {"name": "Bob Brown", "salary_rating": "C"}, {"name": "Charlie Davis", "salary_rating": "B"}], "inference_time": 4.199460744857788}
+{"task_id": "sql/12", "content": "```json\n[\n  {\"name\": \"John Doe\", \"membership\": \"C\"},\n  {\"name\": \"Jane Smith\", \"membership\": \"A\"},\n  {\"name\": \"Alice Johnson\", \"membership\": \"B\"},\n  {\"name\": \"Bob Brown\", \"membership\": \"A\"},\n  {\"name\": \"Charlie Davis\", \"membership\": \"C\"}\n]\n```", "groundtruth": [{"name": "John Doe", "membership": "C"}, {"name": "Jane Smith", "membership": "A"}, {"name": "Alice Johnson", "membership": "B"}, {"name": "Bob Brown", "membership": "A"}, {"name": "Charlie Davis", "membership": "C"}], "inference_time": 4.358870506286621}

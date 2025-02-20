@@ -1,0 +1,121 @@
+{"task_id": "cpp/0", "content": "\n", "groundtruth": "ba"}
+{"task_id": "cpp/1", "content": "\nAnswer: 3\n", "groundtruth": "2"}
+{"task_id": "cpp/2", "content": "\nAnswer: 3\n", "groundtruth": "1"}
+{"task_id": "cpp/3", "content": "\nAnswer: 0", "groundtruth": "3"}
+{"task_id": "cpp/4", "content": "\nAnswer \n\n1", "groundtruth": "2"}
+{"task_id": "cpp/5", "content": "\nAnswer \n\n131\n\n", "groundtruth": "97"}
+{"task_id": "cpp/6", "content": "\nAnswer \n\n6\n\n", "groundtruth": "2"}
+{"task_id": "cpp/7", "content": "", "groundtruth": "1"}
+{"task_id": "cpp/8", "content": "\n\n\nAnswer \n\n-1", "groundtruth": "6"}
+{"task_id": "cpp/9", "content": "\n\n\nAnswer \n4\n", "groundtruth": "7"}
+{"task_id": "cpp/10", "content": "\nAnswer: 14", "groundtruth": "6"}
+{"task_id": "cpp/11", "content": "\nAnswer \n\n1", "groundtruth": "12"}
+{"task_id": "cpp/12", "content": "\nAnswer: 5 1 2 3 14\n", "groundtruth": "[5,3,1,2,14]"}
+{"task_id": "cpp/13", "content": "\n", "groundtruth": "1"}
+{"task_id": "cpp/14", "content": "\n", "groundtruth": "[\"\",\"\",\"abcd\"]"}
+{"task_id": "cpp/15", "content": "\n", "groundtruth": "64"}
+{"task_id": "cpp/16", "content": "\nAnswer \n\n\n1\n", "groundtruth": "[7]"}
+{"task_id": "cpp/17", "content": "\n", "groundtruth": "abac"}
+{"task_id": "cpp/18", "content": "\nAnswer: 6\n", "groundtruth": "6"}
+{"task_id": "cpp/19", "content": "\n", "groundtruth": "6"}
+{"task_id": "cpp/20", "content": "\nAnswer: \n\n4\n", "groundtruth": "2"}
+{"task_id": "numpy/0", "content": "\nAnswer \n[[1 4]\n [2 5]\n [3 6]]", "groundtruth": "[[1, 3, 5], [2, 4, 6]]"}
+{"task_id": "numpy/1", "content": "\nAnswer \n[[[1 2]\n  [3 4]]\n\n [[5 6]\n  [7 8]]]\n\n\n", "groundtruth": "([[[1, 2], [3, 4]], [[5, 6], [7, 8]]])"}
+{"task_id": "numpy/2", "content": "\n", "groundtruth": "[[[1, 5], [3, 7]], [[2, 6], [4, 8]]]"}
+{"task_id": "numpy/4", "content": "\nAnswer \n\n256", "groundtruth": "40320"}
+{"task_id": "numpy/5", "content": "\nAnswer \n\n[1.0, 2.72, 23.14, 77.46, 299.0]", "groundtruth": "[1.00, 1.47, 2.15, 3.14, 4.54]"}
+{"task_id": "numpy/6", "content": "\n[[1 2]\n [3 4]\n [5 6]]\n\n\n", "groundtruth": "[[1, 3, 5], [2, 4, 6]]"}
+{"task_id": "numpy/7", "content": "\n\n", "groundtruth": "([[[1, 2], [3, 4]], [[5, 6], [7, 8]]])"}
+{"task_id": "numpy/8", "content": "\nAnswer \n[[1 2]\n [3 4]\n [5 6]\n [7 8]]\n", "groundtruth": "[[[1, 5], [3, 7]], [[2, 6], [4, 8]]]"}
+{"task_id": "numpy/9", "content": "\n[[2, 4, 6], [1, 3, 5], [7, 9, 11], 5]\narray([[ 6,  8, 10],\n       [ 6,  8, 10],\n       [ 6,  8, 10],\n       [ 6,  8, 10]])\n\n", "groundtruth": "[-21, -7, 7]"}
+{"task_id": "numpy/10", "content": "\n\n\n[[486, 1024, 216]]\n\n\n\n\n\n\n\n\n", "groundtruth": "102"}
+{"task_id": "numpy/11", "content": "\n\nAnswer\n\n<pre>\n(-0.3333333333333333,\narray([[-0.33333333,  0.66666667],\n       [ 0.66666667, -0.33333333]]))\n</pre>\n", "groundtruth": "(-2.0, [[-3.5, 3.0], [2.0, -1.0]])"}
+{"task_id": "numpy/12", "content": "\nAnswer \n\n16.0\n\n", "groundtruth": "16.0"}
+{"task_id": "numpy/13", "content": "\nCode\n\n    Output\n\n\n1.25\n3.0\n", "groundtruth": "(4.0, 7.5)"}
+{"task_id": "numpy/14", "content": "\n[4, 9, 2, 7, 3, 9, 2]\n", "groundtruth": "(1, 9, 2, 5, [4, 8, --, 7, --, 9, --])"}
+{"task_id": "numpy/15", "content": "\nAnswer \n\n0.0 17.5", "groundtruth": "(1.0, 15.0)"}
+{"task_id": "numpy/16", "content": "\nAnswer \n[3 4]\n", "groundtruth": "[3, 4]"}
+{"task_id": "numpy/17", "content": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "groundtruth": "([-1, 6, -1, 9, -1, 6], [6, 9, 6])"}
+{"task_id": "numpy/18", "content": "", "groundtruth": "True"}
+{"task_id": "numpy/19", "content": "\n\n", "groundtruth": "[2.0, 6.0, 4.0, 7.0, 3.0, 1.0]"}
+{"task_id": "numpy/20", "content": "\n\n\n", "groundtruth": "[[2.0, 6.0, 4.0], [7.0, 3.0, 1.0], [5.0, 8.0, 9.0]]"}
+{"task_id": "numpy/21", "content": "\n[1.0, 1.0, 0.0, 0.0, 0.0, 0.0]\n\n", "groundtruth": "[0.0, 6.0, 0.0, 7.0, 0.0, 0.0]"}
+{"task_id": "numpy/22", "content": "\n{'sorted_array': array([1, 2, 3, 4, 6, 7]), 'max_index': 5, 'min_index': 0}\n\n", "groundtruth": "{'sorted_array': [1, 2, 3, 4, 6, 7], 'max_index': 5, 'min_index': 0}"}
+{"task_id": "numpy/23", "content": "\nAnswer \n{'sorted_array': array([[0, 3, 4],\n                        [0, 1, 7],\n                        [5, 6, 0]]), 'non_zero_positions': (array([0, 1, 2]), array([1, 0, 2]))}", "groundtruth": "{'sorted_array': [[0, 0, 0], [5, 3, 1], [7, 6, 4]], 'non_zero_positions': ([1, 1, 1, 2, 2, 2], [0, 1, 2, 0, 1, 2])}"}
+{"task_id": "numpy/24", "content": "\nAnswer \n{'sorted_array': array([1, 2, 3, 4, 5, 6, 7]), 'insert_index_for_value': 3}\n", "groundtruth": "{'sorted_array': [1, 2, 3, 4, 6, 7], 'insert_index_for_value': 4}"}
+{"task_id": "numpy/25", "content": "\n", "groundtruth": "[2.0, 2.5, 3.8, 4.9, 5.0]"}
+{"task_id": "numpy/26", "content": "\nAnswer\n\n6\n", "groundtruth": "5"}
+{"task_id": "numpy/27", "content": "\nAnswer \n\n3.75\n\n\n\n", "groundtruth": "4.7"}
+{"task_id": "java/0", "content": "\n\n", "groundtruth": "[0,1]"}
+{"task_id": "java/1", "content": "\nAnswer: \n1, 2", "groundtruth": "[0,1]"}
+{"task_id": "java/2", "content": "\nYour Answer: \n[0,1]", "groundtruth": "[0,1]"}
+{"task_id": "java/3", "content": "\nAnswer: [3,3,5,5,6,7]\n", "groundtruth": "[3,3,5,5,6,7]"}
+{"task_id": "java/4", "content": "\nAnswer\n\n21\n", "groundtruth": "48"}
+{"task_id": "java/5", "content": "\nAnswer \n\n2", "groundtruth": "2"}
+{"task_id": "java/6", "content": "\nAnswer \n\n4\n", "groundtruth": "2"}
+{"task_id": "java/7", "content": "\nAnswer \n[1, 2, 3, 4]\n", "groundtruth": "4"}
+{"task_id": "java/8", "content": "\n\nAnswer \n\n\n5", "groundtruth": "5"}
+{"task_id": "java/9", "content": "\n", "groundtruth": "[0]"}
+{"task_id": "java/10", "content": "\n\n\n", "groundtruth": "12"}
+{"task_id": "java/11", "content": "\nAnswer \ntrue\n", "groundtruth": "false"}
+{"task_id": "java/12", "content": "\nAnswer \n\n1\n", "groundtruth": "2"}
+{"task_id": "java/13", "content": "\n", "groundtruth": "[10,8,2,0,0]"}
+{"task_id": "java/14", "content": "\nAnswer: 9\n", "groundtruth": "11"}
+{"task_id": "java/15", "content": "\n", "groundtruth": "1"}
+{"task_id": "java/16", "content": "\nAnswer \n\n-1\n\n", "groundtruth": "2"}
+{"task_id": "java/17", "content": "\nAnswer\n\nscalene", "groundtruth": "scalene"}
+{"task_id": "java/18", "content": "\nAnswer = 3\n", "groundtruth": "1"}
+{"task_id": "java/19", "content": "\nAssumptions:\nThe input is correct. There is no need to check for any errors.\n\nDeduce the output of the code snippet based only on the code snippet and the input. The output should be in the form of a list of integers. For example, if the output of the code snippet is a list of integers, the deduced output would be [12, 13, 14, 15].\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "groundtruth": "[[25,25,25],[27,27,27],[27,27,27],[30,30,30]]"}
+{"task_id": "java/20", "content": "\n", "groundtruth": "4"}
+{"task_id": "java/21", "content": "\n\n\nAnswer \n\n[[7, 8, 9], [4, 8, 6], [1, 2, 9]]\n", "groundtruth": "[[1,2,9],[4,8,6],[7,8,9]]"}
+{"task_id": "java/22", "content": "\n", "groundtruth": "2"}
+{"task_id": "java/23", "content": "\n\n\n\n\n", "groundtruth": "2"}
+{"task_id": "tensorflow/0", "content": "\n", "groundtruth": "6.0"}
+{"task_id": "tensorflow/1", "content": "\n", "groundtruth": "[[5], [12], [21], [32]]"}
+{"task_id": "tensorflow/2", "content": "\n<details> \n<summary>Click the arrow for the answer</summary>\n<pre>\n[[1.  2.],\n [2.  4.],\n [2.  4.],\n [4.  8.]]\n</pre>\n</details>\n", "groundtruth": "[[1.], [2.], [2.], [4.]]"}
+{"task_id": "tensorflow/3", "content": "\n[5.41567595, 6.43565588, 6.93186546, 7.35859262]\n", "groundtruth": "[9.0, 10.0, 11.0, 12.0]"}
+{"task_id": "tensorflow/4", "content": "\n", "groundtruth": "[0.0, 1.0, 2.0, 3.0]"}
+{"task_id": "tensorflow/5", "content": "\n[[-6., 12.], [6., -12.]]\n\n\n", "groundtruth": "4.0"}
+{"task_id": "tensorflow/6", "content": "\n<pre>\nimport tensorflow as tf\n\ndef reshape_tensor(input_tensor, new_shape):\n    reshaped_tensor = tf.reshape(input_tensor, new_shape)\n    return reshaped_tensor\n\noutput = reshape_tensor([[4, 2], [6, 4], [3, 6]], [3, 2])\n\nprint(output)\n</pre>\n", "groundtruth": "[[4 2],[6 4], [3 6]]"}
+{"task_id": "tensorflow/7", "content": "\n", "groundtruth": "56"}
+{"task_id": "tensorflow/8", "content": "\nAnswer\n\n[[7 7 7]\n [7 7 7]]\n", "groundtruth": "[[ 7,  7,  7],\n [ 7,  7,  7]]"}
+{"task_id": "tensorflow/9", "content": "\n\n\n- [[77, 121], [289, 329], [495, 569], [841, 985]]\n\n\n", "groundtruth": "[[  4,   9],\n [ 25,  49],\n [121, 169],\n [289, 361]]"}
+{"task_id": "tensorflow/10", "content": "\nAnswer \n\n10.5\n\n\n\n\n\n\n\n\n", "groundtruth": "6"}
+{"task_id": "tensorflow/11", "content": "", "groundtruth": "25401600.0"}
+{"task_id": "pytorch/0", "content": "\n\nAnswer\n\n18\n", "groundtruth": "16"}
+{"task_id": "pytorch/1", "content": "\nThe output is: 4.0\n", "groundtruth": "7.0"}
+{"task_id": "pytorch/2", "content": "\n\n\n15\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "groundtruth": "12"}
+{"task_id": "pytorch/3", "content": "\nAnswer \ntensor([1.5000, 3.5000, 5.5000, 7.5000])\n\n", "groundtruth": "[1.5, 3.5, 5.5, 7.5]"}
+{"task_id": "pytorch/4", "content": "\n[0.0, 0.0, 0.0, 0.0, 0.0]\n\n\n\n\n\n\n", "groundtruth": "[-1.4142, -0.7071, 0.0, 0.7071, 1.4142]"}
+{"task_id": "pytorch/5", "content": "\nAnswer \n\ntensor([[15, 10],\n        [72, 30]])", "groundtruth": "[[ 15,  4],\n [9, 72],\n [25, 36]]"}
+{"task_id": "pytorch/6", "content": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "groundtruth": "[2.0, 5.0]"}
+{"task_id": "pytorch/7", "content": "\n\n\n### Dummy model answer\ntensor([[16, 4], [36, 16]])\n\n", "groundtruth": "tensor([[16, 4],\n        [36, 16]])"}
+{"task_id": "pytorch/8", "content": "\n\nAnswer \ntensor(32)", "groundtruth": "8"}
+{"task_id": "pytorch/9", "content": "\nAnswer \n\n<torch.tensor: shape=(), dtype=int64, numpy=14>", "groundtruth": "6"}
+{"task_id": "pytorch/10", "content": "\n\n\n", "groundtruth": "120"}
+{"task_id": "pytorch/11", "content": "\n\n\n3\n\n", "groundtruth": "9"}
+{"task_id": "pytorch/12", "content": "\n", "groundtruth": "[8, 10, 12]"}
+{"task_id": "pytorch/13", "content": "\n\n\n\n\n", "groundtruth": "[[6, 4], [8, 10]]"}
+{"task_id": "pytorch/14", "content": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "groundtruth": "([[2, 4], [6, 8]], [[2, 2], [2, 2]])"}
+{"task_id": "pytorch/15", "content": "\n\n\n", "groundtruth": "[9, 5, 11, 5, 13]"}
+{"task_id": "pytorch/16", "content": "\n\nAnswer:\ntensor([6., 10., 4., 12., 8.])\n\n", "groundtruth": "[ 6., 10.,  4., 12.,  8.]"}
+{"task_id": "pytorch/17", "content": "\n\nAnswer \n-2\n", "groundtruth": "23.0"}
+{"task_id": "pytorch/18", "content": "\n<pre>\ntorch.Size([1, 3])\n</pre>\n", "groundtruth": "Size([1, 3])"}
+{"task_id": "pytorch/19", "content": "\nAns: \ntorch.Size([1, 10])\n", "groundtruth": "Size([1, 10])"}
+{"task_id": "pytorch/20", "content": "\nYour Answer:\ntorch.Size([1, 8, 28, 28])\n", "groundtruth": "Size([1, 8, 28, 28])"}
+{"task_id": "pytorch/21", "content": "", "groundtruth": "[2.4, 3.4, 4.4]"}
+{"task_id": "pytorch/22", "content": "\n\n\n\n", "groundtruth": "4.8"}
+{"task_id": "pytorch/23", "content": "\n", "groundtruth": "0.802"}
+{"task_id": "sql/0", "content": "", "groundtruth": [{"full_name": "John Doe"}, {"full_name": "Jane Smith"}, {"full_name": "Mike Brown"}]}
+{"task_id": "sql/1", "content": "\nAnswer the question\n\nSELECT UPPER(CONCAT(first_name, ' ', last_name)) AS name_uppercase, LENGTH(CONCAT(first_name, ' ', last_name)) AS name_length FROM employees;\n\nThe correct answer is:\n[{'name_uppercase': 'JOHN DOE', 'name_length': 8}, {'name_uppercase': 'JANE SMITH', 'name_length': 10}, {'name_uppercase': 'MIKE BROWN', 'name_length': 10}]\n\n", "groundtruth": [{"name_uppercase": "JOHN DOE", "name_length": 8}, {"name_uppercase": "JANE SMITH", "name_length": 10}, {"name_uppercase": "MIKE BROWN", "name_length": 10}]}
+{"task_id": "sql/2", "content": "\n\nAnswer: 3\n", "groundtruth": [{"count": 2}]}
+{"task_id": "sql/3", "content": "\n\nAnswer \n[{'transaction_id': 101, 'absolute_change': 150}, {'transaction_id': 102, 'absolute_change': 200}, {'transaction_id': 103, 'absolute_change': 50}, {'transaction_id': 104, 'absolute_change': 75}, {'transaction_id': 105, 'absolute_change': 120}]\n\n\n", "groundtruth": [{"transaction_id": 101, "absolute_change": 150}, {"transaction_id": 102, "absolute_change": 200}, {"transaction_id": 103, "absolute_change": 50}, {"transaction_id": 104, "absolute_change": 75}, {"transaction_id": 105, "absolute_change": 120}]}
+{"task_id": "sql/4", "content": "\n\n\n\nAnswer \n[{'employee_id': 2, 'years_of_service': 6}, {'employee_id': 5, 'years_of_service': 5}]\n", "groundtruth": [{"employee_id": 1, "years_of_service": 9}, {"employee_id": 2, "years_of_service": 13}, {"employee_id": 5, "years_of_service": 9}]}
+{"task_id": "sql/5", "content": "\nAnswer:\n[{'employee_id': 4, 'name': 'Charlie', 'hire_date': '2021-04-01'}, {'employee_id': 2, 'name': 'Alice', 'hire_date': '2019-04-23'}]\n", "groundtruth": [{"employee_id": 1, "name": "John", "hire_date": "2017-04-15"}, {"employee_id": 2, "name": "Alice", "hire_date": "2019-04-23"}, {"employee_id": 4, "name": "Charlie", "hire_date": "2021-04-01"}]}
+{"task_id": "sql/6", "content": "\nAnswer \n\n[{'user_id': 1, 'name': 'John', 'last_login': '2023-03-10 10:22:34'}, {'user_id': 2, 'name': 'Alice', 'last_login': '2023-03-11 15:45:56'}, {'user_id': 3, 'name': 'Bob', 'last_login': '2023-03-09 08:12:04'}, {'user_id': 4, 'name': 'Charlie', 'last_login': '2023-03-12 19:34:45'}, {'user_id': 5, 'name': 'Diana', 'last_login': '2023-03-10 17:05:23'}]\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "groundtruth": [{"user_id": 1, "name": "John", "last_login": "Current Date and Time"}, {"user_id": 2, "name": "Alice", "last_login": "Current Date and Time"}, {"user_id": 3, "name": "Bob", "last_login": "Current Date and Time"}, {"user_id": 4, "name": "Charlie", "last_login": "Current Date and Time"}, {"user_id": 5, "name": "Diana", "last_login": "Current Date and Time"}]}
+{"task_id": "sql/7", "content": "\nAnswer \n[{'employee_id': 1, 'name': 'John', 'time_since_hire': '4 years 11 months 7 days'}, {'employee_id': 2, 'name': 'Alice', 'time_since_hire': '1 years 10 months 14 days'}, {'employee_id': 3, 'name': 'Bob', 'time_since_hire': '0 years 3 months 25 days'}, {'employee_id': 4, 'name': 'Charlie', 'time_since_hire': '0 years 3 months 26 days'}, {'employee_id': 5, 'name': 'Diana', 'time_since_hire': '5 years 3 months 19 days'}]\n\n", "groundtruth": [{"employee_id": 1, "name": "John", "time_since_hire": "8 years 2 months X days"}, {"employee_id": 2, "name": "Alice", "time_since_hire": "4 years 9 months X days"}, {"employee_id": 3, "name": "Bob", "time_since_hire": "3 years 4 months X days"}, {"employee_id": 4, "name": "Charlie", "time_since_hire": "3 years 1 month X days"}, {"employee_id": 5, "name": "Diana", "time_since_hire": "8 years 7 months X days"}]}
+{"task_id": "sql/8", "content": "\nAnswer \n[{'department_id': 101, 'employee_count': 3}, {'department_id': 102, 'employee_count': 1}, {'department_id': 103, 'employee_count': 1}]\n", "groundtruth": [{"department_id": 101, "employee_count": 3}, {"department_id": 102, "employee_count": 1}, {"department_id": 103, "employee_count": 1}]}
+{"task_id": "sql/9", "content": "\n\n\n\n301\n65000\n85000\n\n202\n82000\n85000\n\n201\n65000\n78000\n\n203\n72000\n72000\n", "groundtruth": [{"department_id": 201, "average_salary": 70000, "min_salary": 60000, "max_salary": 80000}, {"department_id": 202, "average_salary": 90000, "min_salary": 85000, "max_salary": 95000}, {"department_id": 203, "average_salary": 72000, "min_salary": 72000, "max_salary": 72000}]}
+{"task_id": "sql/10", "content": "\n\nAnswer \n\n[{'name': 'John Doe', 'salary_level': 'High'}, {'name': 'Jane Smith', 'salary_level': 'Low'}, {'name': 'Alice Johnson', 'salary_level': 'High'}, {'name': 'Bob Brown', 'salary_level': 'Low'}, {'name': 'Charlie Davis', 'salary_level': 'Low'}]\n", "groundtruth": [{"name": "John Doe", "salary_level": "High"}, {"name": "Jane Smith", "salary_level": "Low"}, {"name": "Alice Johnson", "salary_level": "High"}, {"name": "Bob Brown", "salary_level": "Low"}, {"name": "Charlie Davis", "salary_level": "Low"}]}
+{"task_id": "sql/11", "content": "\nAnswer \n\n[{'name': 'John Doe', 'salary_rating': 'A'}, {'name': 'Jane Smith', 'salary_rating': 'B'}, {'name': 'Alice Johnson', 'salary_rating': 'A'}, {'name': 'Bob Brown', 'salary_rating': 'C'}, {'name': 'Charlie Davis', 'salary_rating': 'B'}]\n", "groundtruth": [{"name": "John Doe", "salary_rating": "A"}, {"name": "Jane Smith", "salary_rating": "B"}, {"name": "Alice Johnson", "salary_rating": "A"}, {"name": "Bob Brown", "salary_rating": "C"}, {"name": "Charlie Davis", "salary_rating": "B"}]}
+{"task_id": "sql/12", "content": "\n\n\nAlice Johnson, C\nJohn Doe, C\nJane Smith, A\nBob Brown, A\nCharlie Davis, C\n", "groundtruth": [{"name": "John Doe", "membership": "C"}, {"name": "Jane Smith", "membership": "A"}, {"name": "Alice Johnson", "membership": "B"}, {"name": "Bob Brown", "membership": "A"}, {"name": "Charlie Davis", "membership": "C"}]}
